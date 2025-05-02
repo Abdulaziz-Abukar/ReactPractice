@@ -1,0 +1,16 @@
+.business-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 100px auto;
+  }
+  
+  .business-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
