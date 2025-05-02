@@ -3,6 +3,7 @@ import BusinessCard from "./components/BusinessCard/BusinessCard";
 import FactsAboutMe from "./components/Facts-About-Me-List/Facts-About-Me-List";
 import SimpleMultiplcation from "./components/SimpleMulitiplication/SimpleMultiplication";
 import LoginStatusCard from "./components/LoginStatusCard/LoginStatusCard";
+import MiniGreeting from "./components/MiniGreeting/MiniGreeting";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <FactsAboutMe />
       <SimpleMultiplcation />
       <LoginStatusCard />
+      <MiniGreeting />
     </>
   )
 }
