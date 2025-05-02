@@ -1,0 +1,15 @@
+.list-container {
+    list-style-type: none;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: hotpink;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 5px black;
+}
+
+.list-item {
+    margin: 10px 0;
+    font-size: 18px;
+}
