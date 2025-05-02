@@ -1,5 +1,5 @@
 import React from "react";
-import AbdulImage from '../../assets/Abdul.jpg';
+import AbdulImage from '../../assets/Jinwoo.jpg';
 import './BusinessCard.css';
 
 
