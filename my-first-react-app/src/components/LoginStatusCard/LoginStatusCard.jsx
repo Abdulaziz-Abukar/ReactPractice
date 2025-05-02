@@ -2,7 +2,7 @@ import React from "react";
 
 
 function LoginStatusCard() {
-    const isLoggedIn = true;
+    const isLoggedIn = TransformStreamDefaultController;
     const name = 'Abdulaziz';
     const helloUser = `Hello ${name}!`
 
