@@ -4,19 +4,21 @@ import ToggleText from "./components/Easy/ToggleText/ToggleText";
 import InputTracker from "./components/Easy/InputTracker/InputTracker";
 import SecretMessage from "./components/Easy/SecretMessage/SecretMessage";
 import { CountdownPlusReset } from "./components/Easy/CountdownPlusReset/CountdownPlusReset";
-import { MiniShoppingCart } from "./components/Medium/MiniShoppingCart";
+import { MiniShoppingCart } from "./components/Medium/MiniShoppingCart/MiniShoppingCart";
+import { TaskTracker } from "./components/Medium/TaskTracker/TaskTracker";
 
 function App() {
-    return (
-        <>
-            {/* <BasicCounter label='Click Me!'/>
+  return (
+    <>
+      {/* <BasicCounter label='Click Me!'/>
             <ToggleText label='Toggle'/>
             <InputTracker />
             <SecretMessage visibleButton='Show Secret' invisibleButton='Hide Secret'/>
             <CountdownPlusReset countDown="Click to decrement!" reset="Reset"/>  */}
-            <MiniShoppingCart />
-        </>
-    )
+      {/* <MiniShoppingCart /> */}
+      <TaskTracker />
+    </>
+  );
 }
 
 export default App;
