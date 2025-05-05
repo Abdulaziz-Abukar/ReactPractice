@@ -8,6 +8,7 @@ import { MiniShoppingCart } from "./components/Medium/MiniShoppingCart/MiniShopp
 import { TaskTracker } from "./components/Medium/TaskTracker/TaskTracker";
 import { MoviePicker } from "./components/Medium/MoviePicker/MoviePicker";
 import { EmojiReactionBoard } from "./components/Medium/EmojiReactionBoard/EmojiReactionBoard";
+import { LightSwitchPanel } from "./components/Medium/LightSwitchPanel/LightSwitchPanel";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <MiniShoppingCart />
       <TaskTracker /> */}
       {/* <MoviePicker /> */}
-      <EmojiReactionBoard />
+      {/* <EmojiReactionBoard /> */}
+      <LightSwitchPanel />
     </>
   );
 }
