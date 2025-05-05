@@ -7,6 +7,7 @@ import { CountdownPlusReset } from "./components/Easy/CountdownPlusReset/Countdo
 import { MiniShoppingCart } from "./components/Medium/MiniShoppingCart/MiniShoppingCart";
 import { TaskTracker } from "./components/Medium/TaskTracker/TaskTracker";
 import { MoviePicker } from "./components/Medium/MoviePicker/MoviePicker";
+import { EmojiReactionBoard } from "./components/Medium/EmojiReactionBoard/EmojiReactionBoard";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <CountdownPlusReset countDown="Click to decrement!" reset="Reset" />
       <MiniShoppingCart />
       <TaskTracker /> */}
-      <MoviePicker />
+      {/* <MoviePicker /> */}
+      <EmojiReactionBoard />
     </>
   );
 }
