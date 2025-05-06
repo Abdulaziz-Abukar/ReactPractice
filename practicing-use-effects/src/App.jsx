@@ -5,6 +5,7 @@ import { TimerWithCleanup } from "./components/TimerWithCleanup/TImerWithCleanup
 import { WinWidthAndHeightTracker } from "./components/WindowWidthTracker/WinWidthAndHeightTracker";
 import { DynamicDocumentTitle } from "./components/DynamicDocumentTitle/DynamicDocumentTitle";
 import { MouseTracker } from "./components/MouseTracker/MouseTracker";
+import { FetchAndDisplayData } from "./components/FetchAndDisplayData/FetchAndDisplayData";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <TimerWithCleanup /> */}
       {/* <WinWidthAndHeightTracker /> */}
       {/* <DynamicDocumentTitle /> */}
-      <MouseTracker />
+      {/* <MouseTracker /> */}
+      <FetchAndDisplayData />
     </>
   );
 }
