@@ -3,6 +3,7 @@ import { ComponentLogger } from "./components/ComponentLogger/ComponentLogger";
 import { TypingTracker } from "./components/TypingTracker/TypingTracker";
 import { TimerWithCleanup } from "./components/TimerWithCleanup/TImerWithCleanup";
 import { WinWidthAndHeightTracker } from "./components/WindowWidthTracker/WinWidthAndHeightTracker";
+import { DynamicDocumentTitle } from "./components/DynamicDocumentTitle/DynamicDocumentTitle";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <ComponentLogger /> */}
       {/* <TypingTracker /> */}
       {/* <TimerWithCleanup /> */}
-      <WinWidthAndHeightTracker />
+      {/* <WinWidthAndHeightTracker /> */}
+      <DynamicDocumentTitle />
     </>
   );
 }
