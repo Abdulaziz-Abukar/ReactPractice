@@ -4,6 +4,7 @@ import { TypingTracker } from "./components/TypingTracker/TypingTracker";
 import { TimerWithCleanup } from "./components/TimerWithCleanup/TImerWithCleanup";
 import { WinWidthAndHeightTracker } from "./components/WindowWidthTracker/WinWidthAndHeightTracker";
 import { DynamicDocumentTitle } from "./components/DynamicDocumentTitle/DynamicDocumentTitle";
+import { MouseTracker } from "./components/MouseTracker/MouseTracker";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <TypingTracker /> */}
       {/* <TimerWithCleanup /> */}
       {/* <WinWidthAndHeightTracker /> */}
-      <DynamicDocumentTitle />
+      {/* <DynamicDocumentTitle /> */}
+      <MouseTracker />
     </>
   );
 }
