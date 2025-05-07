@@ -25,6 +25,8 @@ Otherwise → pass posts to a PostList component
 
 import React, { useState, useEffect } from "react";
 import PostsLists from "../components/PostsLists";
+import "../styles/Header.css";
+import "../styles/Searchbar.css";
 
 function PostViewerContainer() {
   // useStates
@@ -67,13 +69,18 @@ function PostViewerContainer() {
   // Return to a PostsList component
   return (
     <>
-      <h1>PostViewer</h1>
-      <input
-        type="text"
-        placeholder="Search by title..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-      />
+      <header>
+        <h1>PostViewer</h1>
+      </header>
+      <div className="searchBarContainer">
+        <input
+          type="text"
+          placeholder="Search by title..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="searchBar"
+        />
+      </div>
       <PostsLists posts={filteredPosts} isLoading={isLoading} error={error} />
     </>
   );
