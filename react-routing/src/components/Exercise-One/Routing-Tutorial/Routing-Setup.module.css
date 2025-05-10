@@ -1,0 +1,21 @@
+.navWrapper {
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  border: 2px solid grey;
+  border-radius: 12px;
+}
+
+.navWrapper ul {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+}
+
+.navWrapper a {
+  text-decoration: none;
+  color: purple;
+}
