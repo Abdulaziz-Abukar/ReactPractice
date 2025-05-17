@@ -68,7 +68,7 @@ export function Habits() {
                 Reset Streak
               </button>
               <button onClick={() => dispatch(removeHabit(habit))}>
-                remove Habit
+                Remove Habit
               </button>
             </span>
           </li>
