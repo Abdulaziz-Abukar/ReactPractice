@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchPokemon, fetchPokemonByName } from "./pokemonSlice";
 import { addToTeam } from "../team/teamSlice";
